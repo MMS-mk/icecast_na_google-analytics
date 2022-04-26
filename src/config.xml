@@ -1,0 +1,24 @@
+<root>
+    <analytics-update-frequency>60</analytics-update-frequency>
+    <icecast-update-frequency>60</icecast-update-frequency>
+
+    <!--- Конфигурација од Icecast Серверот -->
+    <server>
+        <id>1</id>
+        <statsurl>http://address_of_icecast:8000/admin/stats</statsurl>
+        <listenerurl>http://address_of_icecast:8000/admin/listclients?mount=</listenerurl>
+        <login>admin</login>
+        <password>hackme</password>
+        <mountpointsgaaccounts>
+            <mountpoint>/live.mp3</mountpoint>
+            <gaaccount></gaaccount>
+            <user_id_algorithm>ip</user_id_algorithm>
+            <character-decoding>no</character-decoding>
+        </mountpointsgaaccounts>
+        <mountpointsgaaccounts>
+            <mountpoint>/aac</mountpoint>
+            <gaaccount>UA-123456-4</gaaccount>
+            <user_id_algorithm>anonymized_ip</user_id_algorithm>
+            <character-decoding>no</character-decoding>
+        </mountpointsgaaccounts>
+    </server>
