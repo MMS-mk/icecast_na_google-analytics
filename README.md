@@ -28,7 +28,6 @@ git clone https://github.com/MMS-mk/icecast_na_google-analytics.git
 
 ```bash
 # Стандарна команда за стартување
-
 docker-compose up -d
 
 ```
