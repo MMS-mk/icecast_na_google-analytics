@@ -35,7 +35,7 @@ docker-compose up -d
 
 ## Дебагирање
 
-```
+```bash
 # Преглед на логови
 docker logs -f icecast-analytics
 ```
